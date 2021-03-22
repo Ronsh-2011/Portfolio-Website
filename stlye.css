@@ -1,0 +1,55 @@
+body {
+    margin: 0px;
+    padding-top: 800 px;
+    text-align: center;
+}
+
+.Ronav {
+    margin-top: 50px;
+}
+
+#Welcome {
+    background: green;
+    height: 800px;
+    position: absolute;
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+h1,
+h2,
+h3 {
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.parallax-inner {
+    display: table-cell;
+    position: relative;
+}
+
+.menu {
+    list-style: none;
+    font-family: comic;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.link {
+    float: left;
+    color: black;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: comic;
+    font-size: 20px;
+}
+
+.link:hover {
+    background-color: coral;
+}
